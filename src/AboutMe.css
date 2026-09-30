@@ -1,0 +1,135 @@
+/* Über mich */
+.container-me {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.me-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-about-me {
+  color: #2F2A25;
+  font-family: 'Inter';
+}
+
+.img-about-me {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border:4px solid #784455;
+}
+
+.about-me p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.about-me-left p {
+  font-weight: 700;
+}
+
+.grid-about-me {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 2rem;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.color-1 {
+  background-color: #784455;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.color-2 {
+  background-color: #C39466;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.color-3 {
+  background-color: #725446;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem; 
+  margin-bottom: 0.5rem; 
+  color: #ffffff;
+}
+
+.icon-list .icon {
+  width: 18px;
+  height: 18px;
+  fill: #C39466;
+  flex-shrink: 0;
+}
+
+.icon-list .icon-2 {
+  fill:#784455;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+span {
+  color: #F8F5F1;
+  font-family: 'Inter';
+}
+
+
+
+/* hobbies */
+
+#h1-hobbies {
+  text-align: center;
+}
+
+.grid-hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+  margin: 0 auto 3rem auto;
+  max-width: 1000px;
+}
+
+.grid-hobbies img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid #784455;
+}
+
+
+
+
+
+
+
+
+
+

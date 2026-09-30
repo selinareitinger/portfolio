@@ -1,0 +1,50 @@
+/* Startseite */
+
+#infos {
+  color: #F8F5F1;
+  background-color: #784455;
+  border-radius: 15px;
+  border: #784455;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 22px;
+  width: 200px;
+}
+
+#infos:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  background-color: #92596c;
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%) brightness(0.9);
+  transition: all 0.4s ease;
+}
+
+.polaroid:hover img {
+  filter: grayscale(0%) brightness(1);
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+}
+
+.polaroid {
+  background: #F8F5F1;
+  padding: 15px 15px 60px 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  width: 300px;
+  transform: rotate(-3deg);
+  transition: transform 0.4s ease;
+}

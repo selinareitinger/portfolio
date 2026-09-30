@@ -1,0 +1,54 @@
+/* Reisen Startseite */
+
+#h1-traveling {
+  text-align: center;
+}
+
+.grid-travel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+}
+
+.destination-link {
+  text-decoration: none;
+}
+
+.grid-item {
+  background-color: #C39466;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.grid-item img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.grid-item:hover img {
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+.grid-item figcaption {
+  font-family: 'Inter';
+  font-style: italic;
+  font-size: 30px;
+  color:#D5C9BB;
+  text-align: center;
+  margin-top: 2rem;
+}
